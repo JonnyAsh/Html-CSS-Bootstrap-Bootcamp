@@ -5,6 +5,9 @@ It highlights various fun or interesting projects that I have encountered on the
 It is more a play and practise area ranging from simple to more complex scripts.
 Another added benefit is to better understand GitHub ecosystem, Raspberry Pi, Lunix, and Visual Studio Code.
 
+websites built:
+* Buld a website for web development learning
+
 Elements learned:
 * HTML
 * CSS
