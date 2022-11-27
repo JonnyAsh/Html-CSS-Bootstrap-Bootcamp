@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width">
+    <title> Tea Recipe</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+    rel="stylesheet"  type='text/css'>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>How to make tea</h1>
+        <img src="Tea.png" alt="tea">
+        <p>A warming spiced tea, that's the perfect match for our coconut chai traybake. 
+         A quick and easy brew that can be made with almond or cow's milk.</p>
+    </header>
+    <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+        <h2>Ingredients
+             <i class="fa fa-coffee" aria-hidden="true"></i>
+        </h2>
+        <ul>
+            <li>Tea bag</li>
+            <li>Water</li>
+            <li>Milk - Dairy/Plant-based (Optional)</li>
+            <li>Sugar/Honey</li>
+        </ul>
+    </section>
+    <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()" >
+        <h2>Preparation 
+            <i class="fa fa-cog" aria-hidden="true"></i>
+        </h2>
+        <ol>
+            <li>Heat the milk in a saucepan over a very low heat.</li>
+            <li>Empty the contents of the tea bags into the pan, then add the cracked cardamom pods, cinnamon stick, nutmeg and cloves.</li>
+            <li>Sweeten with light brown soft sugar to taste (chai tea should be sweet, but use less if you like).</li>
+            <li>Then leave to infuse for 10 minutes</li>
+            <li>Strain into mugs and enjoy.</li>
+        </ol>
+    </section>
+        <footer>       
+        <p>Copyright Me 2020</p>    
+    </footer>
+    </div>
+    <script>
+
+    function ingredientsHover(){
+        document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = "300%";
+    }
+    function ingredientsNormal(){
+        document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = "100%";
+    }
+
+    function preparationHover(){
+        document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = "300%";
+    }
+    function preparationNormal(){
+        document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = "100%";
+    }
+    </script>
+</body>
+</html>
