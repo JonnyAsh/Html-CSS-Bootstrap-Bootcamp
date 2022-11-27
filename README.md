@@ -1,4 +1,4 @@
-# Html-CSS-Bootstrap-Bootcamp
+# Web Development Journey
 
 This repository aims to document my Web Development learning journey from beginner to a more proficient user. 
 It highlights various fun or interesting projects that I have encountered on the Internet and Youtube.
